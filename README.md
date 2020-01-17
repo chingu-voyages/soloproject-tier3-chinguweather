@@ -2,9 +2,10 @@
 
 ## Overview
 
-This project is a great way to practice using JavaScript outside of the browser, utlizing the Node.js runtime.
-You will create a package that will take in at least two arguments through the commnad line, and return a summary of the weather
-for the region defined in the argument. It will also write the summary to a file in the file system, adding to the end of the file with each call to create a weather record.
+This project is a great way to practice using JavaScript outside of the browser, utilizing the Node.js runtime.
+You will create a package that will take in at least two arguments through the command line, and return a summary of the weather
+for the region defined by the argument. It will also write the summary to a file in your
+local file system, adding to the end of the file with each call to create a weather record.
 
 *Example*
 *Calling the app with the argument `-f` (terse argument for farhenheit) **OR** `-fahrenheit` (verbose argument) would return:*
@@ -27,7 +28,7 @@ This project was designed with Node.js in mind. That being said, if you would li
 please feel free to do so (python, php, etc.). There are **many** ways to complete this project. Here's what to take into
 consideration as you plan:
 
-- [ ] You need to make two different api calls. Take a look at the [https module](https://nodejs.org/dist/latest-v12.x/docs/api/https.html) that is built into node. Another great resource is the [request npm package](https://www.npmjs.com/package/request).
+- [ ] You need to make two different API calls. Take a look at the [https module](https://nodejs.org/dist/latest-v12.x/docs/api/https.html) that is built into node. Another great resource is the [request npm package](https://www.npmjs.com/package/request).
 - [ ] Great apis to use are [Dark Sky](https://darksky.net/dev) for actual weather information, and the [geocoding section of
 the Mapbox api](https://docs.mapbox.com/api/search/#forward-geocoding) for obtaining coordinates. You will need to obtain a *free* API Key for each service.
 - [ ] Remember, API keys are private. Keep them private. Place them in an `.env` file and use them via `process.env`. Here is a 
@@ -41,7 +42,7 @@ the Mapbox api](https://docs.mapbox.com/api/search/#forward-geocoding) for obtai
 The following are required to finish the project.
 
 - [ ] A user should be able to type in `node app.js bucharest` and have the current weather printed to the console with the temperature listed in farhenheit and celsius.
-- [ ] Your program must accept at least one addition argument in both terse and verbose forms; `-f` or `-farhenheit` and -`-c` or `-celsius`
+- [ ] Your program must accept at least one addition argument in both terse and verbose forms; `-f` or `-farhenheit` and `-c` or `-celsius`
 - [ ] Weather needs to include location, the temperature in the requested units, current conditions, and future conditions.
 - [ ] Make sure that you handle errors! Account for an API not responding, etc.
 - [ ] Your API Keys should NOT be on GitHub, put them in an `.env` file. 
@@ -56,10 +57,10 @@ The following are optional ways to expand on the project should you desire to do
 
 - [ ] Use some color in the console.log to help make it more visually appealing.
 - [ ] Accept more arguments based on which parts of the weather you want to make accessible.
-- [ ] Write your own argument parse instead of using a dependency. 
+- [ ] Write your own argument parser instead of creating a dependency on a third-party library. 
 
-**Referrence**
+**Reference**
 
-Please reach out on Discord if you have ANY questions at all. We are more than happy to help. In addition,
+Please reach out in the Discord `#ask-cohort-n-code-questions` channel if you have ANY questions at all. We are more than happy to help. In addition,
 general instructions for all Pre-Work Projects can also be found in the Chingu Voyage Handbook 
 (URL posted in the #read-me-first channel on Discord).
