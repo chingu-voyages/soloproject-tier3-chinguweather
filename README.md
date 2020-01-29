@@ -41,7 +41,7 @@ the Mapbox api](https://docs.mapbox.com/api/search/#forward-geocoding) for obtai
 
 The following are required to finish the project.
 
-- [ ] A user should be able to type in `node app.js bucharest` and have the current weather printed to the console with the temperature listed in farhenheit and celsius.
+- [ ] A user should be able to type in `node app.js bucharest` and have the current weather printed to the console with the temperature listed in farhenheit and celsius; the same information should be appended to a `weather.txt` file to keep a record of the weather calls made.
 - [ ] Your program must accept at least one addition argument in both terse and verbose forms; `-f` or `-farhenheit` and `-c` or `-celsius`
 - [ ] Weather needs to include location, the temperature in the requested units, current conditions, and future conditions.
 - [ ] Make sure that you handle errors! Account for an API not responding, etc.
