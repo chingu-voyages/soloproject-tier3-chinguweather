@@ -1,4 +1,4 @@
-# Chingu Voyage Pre-Work Solo Project (Tier 3): *Weather CLI*
+# Chingu Solo Project - Tier 3 - Weather CLI
 
 ## Overview
 
