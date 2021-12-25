@@ -42,7 +42,7 @@ please feel free to do so (python, php, etc.). There are **many** ways to comple
 consideration as you plan:
 
 - [ ] You need to make two different API calls. Take a look at the [https module](https://nodejs.org/dist/latest-v12.x/docs/api/https.html) that is built into node. Another great resource is the [request npm package](https://www.npmjs.com/package/request).
-- [ ] Great apis to use are [Dark Sky](https://darksky.net/dev) for actual weather information, and the [geocoding section of
+- [ ] Great apis to use are [OpenWeather](https://openweathermap.org/api) for actual weather information, and the [geocoding section of
 the Mapbox api](https://docs.mapbox.com/api/search/#forward-geocoding) for obtaining coordinates. You will need to obtain a *free* API Key for each service.
 - [ ] Remember, API keys are private. Keep them private. Place them in an `.env` file and use them via `process.env`. Here is a 
 [*great* article by John Papa](https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786) if you need help!
