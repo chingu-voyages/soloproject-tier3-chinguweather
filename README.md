@@ -74,6 +74,6 @@ The following are optional ways to expand on the project should you desire to do
 
 **Reference**
 
-Please reach out in the Discord `#ask-cohort-n-code-questions` channel if you have ANY questions at all. We are more than happy to help. In addition,
+Please reach out in the Discord `#community-chat` or `#coding-help` channel if you have ANY questions at all. We are more than happy to help. In addition,
 general instructions for all Pre-Work Projects can also be found in the Chingu Voyage Handbook 
 (URL posted in the #read-me-first channel on Discord).
