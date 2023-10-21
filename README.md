@@ -1,4 +1,14 @@
 # Chingu Solo Project - Tier 3 - Weather CLI
+## Notes 
+- The requirements for this app is outdated. We are in the process of updating it, but feel free to use this as a project idea
+- the current requirement for a tier 3 project can be found [here](https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md#1-choose-your-tier-1%EF%B8%8F%E2%83%A3-2%EF%B8%8F%E2%83%A3-3%EF%B8%8F%E2%83%A3) 
+```
+  Developers should have the following skills & expertise:
+- Intermediate or Advanced HTML/CSS/JavaScript/PHP/Python/Ruby/etc. and experience in a framework/library like React, Vue, Angular, etc.
+- Understand how to create and use API's with REST or GraphQL API
+- Understand how to create backend servers which implement an API of your own design using packages such as Express
+- Your Solo Project must implement an FE which accesses a BE server that implements an API of your own design. Optionally uses a database such as a NoSQL DBMS like MongoDB or a SQL DBMS like PostgreSQL
+```
 
 ## Overview
 
